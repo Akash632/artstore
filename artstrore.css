@@ -1,0 +1,296 @@
+.nav-heading{
+    font-family: cursive;
+    color: white;
+    padding-left: 15px;
+    padding-top: 13px;
+    font-size: 25px;
+}
+.navbar-container{
+    background-color: #093150;
+}
+#navItem1 {
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+#navItem2 {
+    color: white;
+    font-family: Roboto;
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: Roboto;
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: Roboto;
+}
+.logo-image{
+    font-size: 35px;
+    color: white;
+}
+.banner-section-bg-container {
+    text-align: left;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/1014/808/26/brushes-paint-artistic-bank-wallpaper-preview.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-left: 80px;
+}
+
+.banner-heading {
+    font-family: roboto;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-size: 24px;
+    font-family: roboto;
+    font-weight: 300;
+}
+
+.custom-outline-button {
+    color: white;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 8px;
+}
+.explore-section{
+    background-color: white;
+}
+.explore-heading {
+    color: #093150;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.explore-card {
+    height: 328px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.products-bg-container {
+    background-image: url("https://static.wixstatic.com/media/112644_1873b5b91dbc41afa2afcec91fe8a2a5~mv2.jpg/v1/fill/w_1349,h_927,q_90/112644_1873b5b91dbc41afa2afcec91fe8a2a5~mv2.webp");
+    background-size: cover;
+}
+
+.explore-card-button {
+    background-color: white;
+    color: #093150;
+    font-size: 13px;
+    border-width: 0px;
+    height: 38px;
+    width: 100px;
+    border-radius: 40px;
+}
+
+.explore-card-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.explore-card-description {
+    color: white;
+    font-family: "Roboto";
+}
+
+.explore-card-modal-description {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.explore-cardmodal-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.explore-card-modal-list-item {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.explore-card-modal-list-category {
+    font-weight: bold;
+}
+
+.originals-bg-container {
+    background-image: url("https://static.wixstatic.com/media/112644_efa42fa4f7074d918210a2756c957050~mv2.jpg/v1/crop/x_1043,y_0,w_1947,h_2268/fill/w_485,h_564,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_1330%20(1).jpg");
+    background-size: cover;
+}
+
+.explore-section-link {
+    color: #ff9f00;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.explore-modal-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+}
+.ws-section{
+    background-color: #f9fbfe;
+}
+.ws-img {
+    width: 300px;
+    height: 270px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ws-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #093150;
+}
+
+.ws-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.some-products-section {
+    background-color: white;
+}
+
+.some-products-heading {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    color: #183b56;
+}
+
+.some-products-image {
+    border-radius: 16px;
+}
+
+.some-products-card-title {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #323f4b;
+}
+
+.some-products-item-link {
+    color: #093150;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.some-products-card {
+    border-radius: 16px;
+}
+
+.artist-section {
+    background-color: #f9fbfe;
+}
+
+.artist-section-img {
+    height: 270px;
+    border-radius: 5px;
+}
+
+.artist-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.artist-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.custom-button {
+    width: 130px;
+    height: 45px;
+    color: #093150;
+    background-color: white;
+    border-width: 2px;
+    border-color: #093150;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.follow-me-section {
+    background-color: white;
+}
+
+.follow-me-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+    text-align: center;
+}
+.icon{
+    color: #093150;
+    font-size: 35px;
+}
+
+.follow-me-icon-container {
+    background-color: #5a7184;
+    height: 80px;
+    width: 80px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 10px;
+    border-radius: 40px;
+}
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.footer-section-image{
+    width: 200px;
+}
+.icon-1{
+    color: white;
+    font-size: 45px;
+}
+.brand-heading{
+    font-family: cursive;
+    color: white;
+    padding-left: 15px;
+    padding-top: 13px;
+    font-size: 25px;
+}
