@@ -2,7 +2,9 @@
 <html>
 
 <head>
+    <title>artstore</title>
     <link rel="stylesheet" href="artstore.css">
+    <script src="artstrore.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -26,10 +28,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" id="navItem1" href="#exploreSection">Explore<span class="sr-only">(current)</span></a>
-                    <a class="nav-link custom-nav-link" id="navItem1" href="#wsSection">Workshops</a>
-                    <a class="nav-link custom-nav-link" id="navItem1" href="#someproductsSection">Products</a>
-                    <a class="nav-link custom-nav-link" id="navItem1" href="#artistSection">About me</a>
+                    <a class="nav-link active mr-2" id="navItem1" href="#exploreSection">Explore<span class="sr-only">(current)</span></a>
+                    <a class="nav-link custom-nav-link mr-2" id="navItem1" href="#wsSection">Workshops</a>
+                    <a class="nav-link custom-nav-link mr-2" id="navItem1" href="#someproductsSection">Trending</a>
+                    <a class="nav-link custom-nav-link mr-2" id="navItem1" href="#artistSection">About me</a>
                     <a class="nav-link custom-nav-link" id="navItem1" href="#followSection">Follow me</a>
                 </div>
             </div>
@@ -38,7 +40,9 @@
     <div class="banner-section-bg-container d-flex flex-column justify-content-center">
         <div>
             <h1 class="banner-heading mb-3">Welcome to Palette tales store!!!</h1>
-            <button class="custom-outline-button" onclick="display('exploreSection')">View Store</button>
+            <a href="#exploreSection">
+            <button class="custom-outline-button">View Store</button>
+        </a>
         </div>
     </div>
     <div class="explore-section pt-5 pb-5" id="exploreSection">
@@ -51,45 +55,11 @@
                     <div class="explore-card products-bg-container shadow d-flex flex-column justify-content-end mb-3">
                         <h1 class="explore-card-title">Products</h1>
                         <div>
-                            <button type="button" class="explore-card-button" data-toggle="modal" data-target="#productsModal">
+                            <a href="products.html">
+                            <button class="explore-card-button">
                                 View Details
                             </button>
-                            <div class="modal fade" id="productsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title explore-card-modal-title" id="exampleModalLabel">
-                                                Different Variety of products with my art prints as covers....
-                                            </h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <ul class="explore-card-modal-list">
-                                                <li class="explore-card-modal-list-item">
-                                                    <span class="explore-card-list-item-category">Sketch Books:</span> Suitable to Work with Acrylics and WaterColors.
-                                                </li>
-                                                <li class="explore-card-modal-list-item">
-                                                    <span class="explore-card-list-item-category">Fridge Magnets:</span> Can make your boring fridge beautiful.
-                                                </li>
-                                                <li class="explore-card-modal-list-item">
-                                                    <span class="explore-card-list-item-category">Greeting Cards:</span> Wish with beautiful paintings
-                                                </li>
-                                                <li class="explore-card-modal-list-item">
-                                                    <span class="explore-card-list-item-category">Stickers:</span> converts every surface eye catchy.
-                                                </li>
-                                                <li class="explore-card-modal-list-item">
-                                                    <span class="explore-card-list-item-category">Art Prints:</span> some art prints of my original works.
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        </a>
                         </div>
                     </div>
                 </div>
@@ -97,39 +67,11 @@
                     <div class="explore-card originals-bg-container shadow d-flex flex-column justify-content-end mb-3">
                         <h1 class="explore-card-title">Originals</h1>
                         <div>
-                            <button type="button" class="explore-card-button" data-toggle="modal" data-target="#originalsModal">
+                            <a href="originals.html">
+                            <button type="button" class="explore-card-button">
                                 View Details
                             </button>
-                            <div class="modal fade" id="originalsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog mt-5">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title explore-card-modal-title" id="exampleModalLabel">
-                                                Original ArtWorks
-                                            </h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <ul class="explore-card-modal-list">
-                                                <li class="eplore-card-modal-list-item">
-                                                    <span class="explore-card-list-item-category">Acrylics:</span> Done with acrylics on canvases
-                                                </li>
-                                                <li class="explore-card-modal-list-item">
-                                                    <span class="explore-card-list-item-category">Water Colors:</span> Done with watercolors on 300gsm papers
-                                                </li>
-                                                <li class="explore-card-modal-list-item">
-                                                    <span class="explore-card-list-item-category">Gouache:</span> Done on gouache sheets
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Buy Now</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        </a>
                         </div>
                     </div>
                 </div>
@@ -156,7 +98,9 @@
                         And last but not least you will be learning some tricks and tips I personally use which makes
                         my paintings more realistic...
                     </p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7FjLiM4mtqQKkpNMRH_NNaexJAZZtF-qkOMEYGPaC6qIxfA/viewform" target="_blank">
                     <button class="custom-button">Book now</button>
+                </a>
                 </div>
             </div>
         </div>
@@ -165,7 +109,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="some-products-heading">Some Products</h1>
+                    <h1 class="some-products-heading">Trending</h1>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="some-products-card shadow p-2 mb-3">
@@ -267,9 +211,9 @@
                             <i class="icon fa-brands fa-twitter"></i>
                         </div>
                         <div class="follow-me-icon-container">
-                            <i class="icon fa-brands fa-instagram">
-                                <a></a>
-                            </i>
+                            <a href="https://www.instagram.com/palette_tales_/" target="_blank">
+                                <i class="icon fa-brands fa-instagram"></i>
+                            </a>
                         </div>
                         <div class="follow-me-icon-container">
                             <i class="icon fa-brands fa-facebook"></i>
@@ -285,11 +229,12 @@
                 <div class="col-12 text-center">
                     <i class="icon-1 fa-solid fa-palette"></i>
                     <h1 class="brand-heading">Palette tales</h1>
-                    <h1 class="footer-section-mail-id">palettetalesss@gmail.com</h1>
+                    <a class="footer-section-mail-id" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJfqbtwMCQhQXbMRbXmTgFSvNJZpZhCSrpdRmsTHkPmSrPSpJVFzDlbTRztKpCmQwzfZcPL">
+                        palettetalesss@gmail.com
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </body>
-
 </html>
